@@ -1,0 +1,14 @@
+{
+    "name": "UTM Appender",
+    "version": "0.2",
+    "description": "Appending UTM parameters since 2020",
+    "manifest_version": 3,
+
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "permissions": [
+    "activeTab"
+   ]
+  }

@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <title>UTM Appender</title>
+    <script src="popup.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <h1>UTM Appender</h1>
+	<table>
+    <tr>
+		  <td>Facebook</td>
+      <td><input id="fbcontent" type="text" placeholder="[O] Content"></td>
+      <td><input id="fbrbdly" name="fbrbdly"type="checkbox"><label for="fbrbdly">Shorten Link</label></td>
+      <td><button id="facebook">Copy</button></td>
+    <tr>
+      <tr>
+      <td>Twitter</td>
+      <td><input id="twcontent" type="text" placeholder="[O] Content"></td>
+      <td><input id="twrbdly" name="twrbdly"type="checkbox"><label for="twrbdly">Shorten Link</label></td>
+      <td><button id="twitter">Copy</button></td>
+    <tr>
+      <tr>
+      <td>LinkedIn </td>
+      <td><input id="licontent" type="text" placeholder="[O] Content"></td>
+      <td><input id="lirbdly" name="lirbdly"type="checkbox"><label for="lirbdly">Shorten Link</label></td>
+      <td><button id="linkedin">Copy</button></td>
+    <tr>
+      <tr>
+      <td>Instagram </td>
+      <td><input id="igcontent" type="text" placeholder="[O] Content"></td>
+      <td><input id="igrbdly" name="igrbdly"type="checkbox"><label for="igrbdly">Shorten Link</label></td>
+      <td><button id="instagram">Copy</button></td>
+    <tr>
+    <tr>
+      <td>Search</td>
+      <td>
+        <select style="width: 100%" name="platform_search" id="platform_search">
+          <option value="google">Google</option>
+          <option value="bing">Bing</option>
+        </select>
+      </td>
+      <td><input id="search_campaign" type="text" placeholder="Campaign Name"></td>
+      <td><input id="head_term" type="text" placeholder="[O] Head Term"></td>
+      <td><button id="search">Copy</button></td>
+    </tr>
+    <tr>
+      <td>Display</td>
+       <td>
+        <select style="width: 100%" name="platform_display" id="platform_display">
+          <option value="google">Google</option>
+          <option value="carbon">Carbon</option>
+        </select>
+      </td>
+      <td><input id="display_campaign" type="text" placeholder="Campaign Name"></td>
+      <td></td>
+      <td><button id="display">Copy</button></td>
+    </tr>
+      <tr>
+      <td>Facebook Ads</td>
+        <td><input id="facebook_campaign" type="text" placeholder="Campaign Name"></td>
+        <td><select style="width: 100%" name="goal_category" id="goal_category">
+          <option value="signup">Signup</option>
+          <option value="lead">Lead</option>
+          <option value="traffic">Traffic</option>
+        </select>
+      </td>
+      <td></td>
+      <td><button id="facebook_ads">Copy</button></td>
+    <tr>
+      <tr>
+      <td>Partnerships</td>
+      <td><input id="partner_name" type="text" placeholder="Partner Name"></td>
+      <td>
+        <select style="width: 100%" name="partnership_type" id="partnership_type">
+          <option value="podcast">Podcast</option>
+          <option value="sponsored_post">Sponsored Post</option>
+          <option value="newsletter">Newsletter</option>
+        </select>
+      </td>
+      <td></td>
+      <td><button id="partnerships">Copy</button></td>
+    <tr>
+	</table>
+  </body>
+</html>
